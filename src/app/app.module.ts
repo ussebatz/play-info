@@ -6,6 +6,8 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { FooterComponent } from './footer/footer.component';
 import { HelpComponent } from './help/help.component';
 import { UnitListComponent } from './unit-list/unit-list.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,12 @@ import { UnitListComponent } from './unit-list/unit-list.component';
     NavigationComponent,
     FooterComponent,
     HelpComponent,
-    UnitListComponent
+    UnitListComponent,
+    HomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
