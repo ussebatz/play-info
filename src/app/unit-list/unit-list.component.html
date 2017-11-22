@@ -1,10 +1,8 @@
-<p>unit-list</p>
+<h3>Units</h3>
 
 <table>
-  <tr *ngFor="let row of data">
-    <td *ngFor="let val of row">
-      {{val}}
-    </td>
+  <tr *ngFor="let row of units">
+    <td>{{row.label}}</td>
+    <td>{{row.factor}}</td>
   </tr>
 </table>
-
