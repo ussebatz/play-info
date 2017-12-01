@@ -1,4 +1,6 @@
 # PlayInfo
+This project is also on "https://github.com/ussebatz/play-info.git"
+
 # ---- TODO ----
 - Add a 'Units' component.
 
